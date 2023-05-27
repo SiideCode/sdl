@@ -19,11 +19,10 @@
   3. This notice may not be removed or altered from any source distribution.
 */
 
+#ifdef HX_WINRT
+
 #ifndef SDL_config_winrt_h_
 #define SDL_config_winrt_h_
-
-
-#ifdef HX_WINRT
 
 #include "SDL_platform.h"
 
@@ -224,6 +223,6 @@ typedef unsigned int uintptr_t;
 #define SDL_ASSEMBLY_ROUTINES	1
 #endif
 
-#endif //HX_WINRT
-
 #endif /* SDL_config_winrt_h_ */
+
+#endif //HX_WINRT
